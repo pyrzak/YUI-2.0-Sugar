@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+@author Guy Pyrzak <derekr@me.com>
+@version beta 1
+@copyright MIT License 2009
+-->
+<action-recipes>
+	
+	<snippet id="yui.event" category="tools.Snippets.yui">
+		<title>YUI Event</title>
+		<text><![CDATA[ YAHOO.util.Event.]]></text>
+		<syntax-context>js, js *</syntax-context>
+		<text-trigger>event</text-trigger>
+	</snippet>
+	
+	<snippet id="yui.dom" category="tools.Snippets.yui">
+		<title>YUI Dom</title>
+		<text><![CDATA[YAHOO.util.Dom]]></text>
+		<syntax-context>js, js *</syntax-context>
+		<text-trigger>dom</text-trigger>
+	</snippet>
+	
+</action-recipes>

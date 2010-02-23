@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+@author Guy Pyrzak
+@version beta 1
+@copyright MIT License 2009
+-->
+<codesense version="1.0">
+    <set name="com.pyrzak.js.YUI.api.dom">    
+        <!-- YUI DOM -->
+        <completion string="YAHOO.util.Dom.addClass">
+            <behavior>
+                <append-static>(${1:element}, \"${2:className}\")</append-static>
+            </behavior> 
+        </completion>        
+            <completion string="YAHOO.util.Dom.batch" >
+            <behavior>
+                <append-static>(${1:elementArray}, ${2:func}${3:, ${4:scopeObject}, ${5:true}})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.generateId" >            
+            <behavior>
+                <append-static>(${1:element, ${2:prefix}})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.get" >
+            <behavior>
+                <append-static>(${1:elementId})</append-static>
+            </behavior> 
+        </completion>        
+        <completion string="YAHOO.util.Dom.getAncestorBy" >
+            <behavior>
+                <append-static>(${1:node}, ${2:method})</append-static>
+            </behavior> 
+        </completion>             
+      
+        <completion string="YAHOO.util.Dom.getAncestorByClassName" >
+            <behavior>
+                <append-static>(${1:node}, \"${2:className}\")</append-static>
+            </behavior> 
+        </completion>        
+        <completion string="YAHOO.util.Dom.getAncestorByTagName">
+            <behavior>
+                <append-static>(${1:node}, \"${2:tagName}\")</append-static>
+            </behavior> 
+        </completion>        
+        <completion string="YAHOO.util.Dom.getAttribute" >
+            <behavior>
+                <append-static>(${1:element}, ${2:attribute})</append-static>
+            </behavior> 
+        </completion>        
+        <completion string="YAHOO.util.Dom.getChildren" >
+            <behavior>
+                <append-static>(${1:node})</append-static>
+            </behavior> 
+        </completion>        
+        <completion string="YAHOO.util.Dom.getChildrenBy" >
+            <behavior>
+                <append-static>(${1:node}, ${2:method})</append-static>
+            </behavior> 
+        </completion>        
+        <completion string="YAHOO.util.Dom.getClientRegion" >
+            <behavior>
+                <append-static>()</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getDocumentHeight" >
+            <behavior>
+                <append-static>()</append-static>
+            </behavior> 
+        </completion>    
+        <completion string="YAHOO.util.Dom.getDocumentScrollLeft" >
+            <behavior>
+                <append-static>()</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getDocumentScrollTop" >
+            <behavior>
+                <append-static>()</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getDocumentWidth" >
+            <behavior>
+                <append-static>()</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getElementBy" >
+            <behavior>
+                <append-static>(${1:method}${2:, ${3:tag}, ${4:root}})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getElementsBy" >
+            <behavior>
+                <append-static>(${1:method}${2:, ${3:tag}, ${4:root}, ${5:apply}, ${6:o}, ${7:overrides}})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getElementsByClassName" >
+            <behavior>
+                <append-static>(${1:className}${2:, ${3:tag}, ${4:root}, ${5:apply}, ${6:o}, ${7:overrides}})</append-static>
+            </behavior> 
+        </completion>      
+        <completion string="YAHOO.util.Dom.getFirstChild" >
+            <behavior>
+                <append-static>(${1:node})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getFirstChildBy" >
+            <behavior>
+                <append-static>(${1:node}, ${2:method})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getLastChild" >
+            <behavior>
+                <append-static>(${1:node})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getLastChildBy" >
+            <behavior>
+                <append-static>(${1:node}, ${2:method})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getNextSibling" >
+            <behavior>
+                <append-static>(${1:node})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getNextSiblingBy" >
+            <behavior>
+                <append-static>(${1:node}, ${2:method})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getPreviousSibling" >
+            <behavior>
+                <append-static>(${1:node})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getPreviousSiblingBy" >
+            <behavior>
+                <append-static>(${1:node}, ${2:method})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getRegion" >
+            <behavior>
+                <append-static>(${1:element})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getStyle" >
+            <behavior>
+                <append-static>(${1:element}, ${2:property})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getViewportHeight" >
+            <behavior>
+                <append-static>()</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getViewportWidth" >
+            <behavior>
+                <append-static>()</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getX" >
+            <behavior>
+                <append-static>(${1:element})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getXY" >
+            <behavior>
+                <append-static>(${1:element})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.getY" >
+            <behavior>
+                <append-static>(${1:element})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.hasClass" >
+            <behavior>
+                <append-static>(${1:element}, ${2:className})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.inDocument" >
+            <behavior>
+                <append-static>(${1:element})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.insertAfter" >
+            <behavior>
+                <append-static>(${1:newNode}, ${2:referenceNode})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.insertBefore" >
+            <behavior>
+                <append-static>(${1:newNode}, ${2:referenceNode})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.isAncestor" >
+            <behavior>
+                <append-static>(${1:haystack}, ${2:needle})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.removeClass" >
+            <behavior>
+                <append-static>(${1:el}, \"${2:className}\")</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.replaceClass" >
+            <behavior>
+                <append-static>(${1:el}, \"${2:oldClassName}\", \"${3:newClassName}\")</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.setAttribute" >
+            <behavior>
+                <append-static>(${1:el}, \"${2:attr}\", \"${3:val}\")</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.setStyle" >
+            <behavior>
+                <append-static>(${1:el}, \"${2:property}\", \"${3:val}\")</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.setX" >
+            <behavior>
+                <append-static>(${1:el}, ${2:x})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.setXY" >
+            <behavior>
+                <append-static>(${1:el}, ${2:position})</append-static>
+            </behavior> 
+        </completion>
+        <completion string="YAHOO.util.Dom.setY" >
+            <behavior>
+                <append-static>(${1:el}, ${2:y})</append-static>
+            </behavior> 
+        </completion>                
+    </set>
+    <!-- the event api -->
+    
+    <set name="com.pyrzak.js.YUI.api.event">        
+       <completion string="YAHOO.util.Event.addListener" >
+            <behavior>
+                <append-static>(${1:element}, '${2:event}', ${3:function}${4:, ${5:scopeObject}, ${6:overrideContext}})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.delegate" >
+            <behavior>
+                <append-static>(${1:container}, '${2:event}', ${3:function}, '${4:filter}'${5:, ${6:scopeObject}, ${7:overrideContext}})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.generateId" >
+            <behavior>
+                <append-static>(${1:el})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getCharCode" >
+            <behavior>
+                <append-static>(${1:ev})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getEvent" >
+            <behavior>
+                <append-static>(${1:event}, ${2:boundEl})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getListeners" >
+            <behavior>
+                <append-static>(${1:el}${2:, ${3:sType}})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getPageX" >
+            <behavior>
+                <append-static>(${1:ev})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getPageY" >
+            <behavior>
+                <append-static>(${1:ev})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getRelatedTarget" >
+            <behavior>
+                <append-static>(${1:ev})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getTarget" >
+            <behavior>
+                <append-static>(${1:ev}${2:, ${3:resolveTextNode}})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getTime" >
+            <behavior>
+                <append-static>(${1:ev})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.getXY" >
+            <behavior>
+                <append-static>(${1:el}, ${2:y})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.on" >
+            <behavior>
+                <append-static>(${1:element}, \"${2:event}\", ${3:function}${4:, ${5:scopeObject}, ${6:overrideContext}})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.onAvailable" >
+            <behavior>
+                <append-static>(\"${1:id}\", ${2:function}${3:, ${4:scopeObject}, ${5:overrideContext}, ${6:checkContent}})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.onContentReady" >
+            <behavior>
+                <append-static>(\"${1:id}\", ${2:function}${3:, ${4:scopeObject}, ${5:overrideContext}})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.onDOMReady" >
+            <behavior>
+                <append-static>(${1:function}${2:, ${3:scopeObject}, ${4:overrideContext}} )</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.preventDefault" >
+            <behavior>
+                <append-static>(${1:event})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.purgeElement" >
+            <behavior>
+                <append-static>(${1:element}${2:, ${3:recurse}, ${4:sType}})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.removeDelegate" >
+            <behavior>
+                <append-static>(${1:container}, ${2:type}, ${3:function})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.removeListener" >
+            <behavior>
+                <append-static>(${1:el}, ${2:sType}, ${3:function})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.resolveTextNode" >
+            <behavior>
+                <append-static>(${1:node})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.stopEvent" >
+            <behavior>
+                <append-static>(${1:event})</append-static>
+            </behavior> 
+        </completion> 
+       <completion string="YAHOO.util.Event.stopPropagation" >
+            <behavior>
+                <append-static>(${1:event})</append-static>
+            </behavior> 
+        </completion> 
+    </set>
+</codesense>
