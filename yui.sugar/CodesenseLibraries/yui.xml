@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-@author Guy Pyrzak
+@author Guy Pyrzak <guy.pyrzak@gmail.com>
 @version 0.1
-@copyright MIT License 2010
+@copyright Public domain 2010
 -->
 <codesense version="1.0">
     <set name="com.pyrzak.js.YUI.api.dom">    
